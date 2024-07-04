@@ -7,6 +7,10 @@ export default function Nav() {
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <div class="col-md-3 mb-2 mb-md-0">
             <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <div className="container">
+            <img src="/img/p.png" alt="Logo" height="60" />
+            <p>Calibur</p>
+            </div>
             </a>
         </div>
 
@@ -16,9 +20,7 @@ export default function Nav() {
             <li class="nav-item">
           
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> เกี่ยวกับ</a>
-        </li>
+        
         
        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> บริการ
@@ -30,7 +32,7 @@ export default function Nav() {
           </ul>
       
         </li>
-         <a class="nav-link" href="#">ติดต่อ</a>
+            <Link href="/contact" class="nav-link">ติดต่อ</Link>
             <li><Link href="/about" class="nav-link px-2">เพิ่มเติม</Link></li>
             <a href="#" class="btn btn-outline-success" >Sing in</a>
             <a href="#" class="btn btn-outline-success" >Sing up</a>
