@@ -26,7 +26,7 @@ export default function Nav() {
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> บริการ
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">เปรียบเทียบ</a></li>
+            <li><a class="dropdown-item" ><Link href="/users" class="nav-link px-2">เปรียบเทียบ</Link></a></li>
             <li><a class="dropdown-item" href="#">ปัญหา</a></li>
             <li><a class="dropdown-item" href="#">ช่วยเหลือ</a></li>
           </ul>
@@ -34,8 +34,8 @@ export default function Nav() {
         </li>
             <Link href="/contact" class="nav-link">ติดต่อ</Link>
             <li><Link href="/about" class="nav-link px-2">เพิ่มเติม</Link></li>
-            <a href="#" class="btn btn-outline-success" >Sing in</a>
-            <a href="#" class="btn btn-outline-success" >Sing up</a>
+            <a href="#" class="btn btn-outline-success" ><Link href="" class="nav-link px-2">Sing in</Link></a>
+            &nbsp; &nbsp; <a href="#" class="btn btn-outline-success" ><Link href="/signup" class="nav-link px-2">Sing up</Link></a> &nbsp;
         </ul>
         
         </header>
